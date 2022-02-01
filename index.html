@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="script.js" defer></script>
+	<title>Js - Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="calculator">
+			<div class="screen">
+				<div class="inputedValue">
+					<p></p>
+				</div>
+				<div class="insertingValue">
+					<p></p>
+				</div>
+			</div>
+			<div class="clears">
+				<button>Del</button>
+				<button>Clear</button>
+			</div>
+			<div class="numAndOperators">
+				<button class="numbers" onclick="addText(this.value)" value="7">7</button>
+				<button class="numbers" onclick="addText(this.value)" value="8">8</button>
+				<button class="numbers" onclick="addText(this.value)" value="9">9</button>
+				<button class="operators" value="/" onclick="assingOperator(this.value)">/</button>
+				<button class="numbers" onclick="addText(this.value)" value="4">4</button>
+				<button class="numbers" onclick="addText(this.value)" value="5">5</button>
+				<button class="numbers" onclick="addText(this.value)" value="6">6</button>
+				<button class="operators" value="x" onclick="assingOperator(this.value)">x</button>
+				<button class="numbers" onclick="addText(this.value)" value="1">1</button>
+				<button class="numbers" onclick="addText(this.value)" value="2">2</button>
+				<button class="numbers" onclick="addText(this.value)" value="3">3</button>
+				<button class="operators" value='-' onclick="assingOperator(this.value)">-</button>
+				<button class="numbers" onclick="addText(this.value)" value="0">0</button>
+				<button>,</button>
+				<button class="operators" value="+" onclick="assingOperator(this.value)">+</button>
+				<button onclick="parseValues()">=</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

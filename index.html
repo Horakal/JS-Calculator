@@ -15,13 +15,13 @@
 				<div class="inputedValue">
 					<p></p>
 				</div>
-				<div class="insertingValue">
+				<div class="resultValue">
 					<p></p>
 				</div>
 			</div>
 			<div class="clears">
-				<button>Del</button>
-				<button>Clear</button>
+				<button onclick="delChar()">Del</button>
+				<button id="clear" >Clear</button>
 			</div>
 			<div class="numAndOperators">
 				<button class="numbers" onclick="addText(this.value)" value="7">7</button>
@@ -37,7 +37,7 @@
 				<button class="numbers" onclick="addText(this.value)" value="3">3</button>
 				<button class="operators" value='-' onclick="assingOperator(this.value)">-</button>
 				<button class="numbers" onclick="addText(this.value)" value="0">0</button>
-				<button>,</button>
+				<button onclick="addText('.')" >.</button>
 				<button class="operators" value="+" onclick="assingOperator(this.value)">+</button>
 				<button onclick="parseValues()">=</button>
 			</div>

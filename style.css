@@ -48,3 +48,22 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 	width: 160px;
 	margin: 3px 0;
 }
+
+.inputedValue p {
+	padding: 3px;
+	margin: 0;
+}
+
+.resultValue p{
+	padding: 3px;
+}
+
+.inputedValue{
+	min-height: 20px;
+	max-height: 20px;
+}
+
+.resultValue{
+	min-height: 20px;
+	max-height: 20px;
+}
